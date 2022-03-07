@@ -2,7 +2,9 @@ Projeto Drag and Drop
 
 Neste projeto foi realizado um web site para ler e manusear arquivos em CSV. O projeto foi escrito em React e JavaScript.
 
-Ao clonar este repositório, utilizar o comando npm install.
+Ao clonar este repositório, utilizar o comando npm install e em seguida npm start.
+
+No repositório segue junto um modelo de um arquivo CSV (demo.csv) que pode ser utilizado para os testes.
 
 As dependências utilizadas foram:
  - React
