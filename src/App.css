@@ -8,22 +8,13 @@ body {
 }
 
 header {
-  margin: 0px;
-  margin-bottom: 15px;
   padding: 10px;
 }
 
 .container {
   text-align: center;
-  /* justify-content: center; */
-  display: block;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
-}
-
-form {
-  position: relative;
-  /* width: 20rem; */
 }
 
 img {
@@ -88,11 +79,6 @@ tr:nth-child(odd) {
   color: #fff;
 }
 
-tr:nth-last-child(1) {
-  background-color: rgb(173, 41, 8);
-  width: 500px;
-}
-
 th:nth-child(1) {
   border-top-left-radius: 5px;
 }
@@ -104,8 +90,4 @@ th:nth-child(3) {
 table, th, td {
   padding: 10px 30px;
   border: none;
-}
-
-#images {
-  width: 100px;
 }

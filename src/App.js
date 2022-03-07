@@ -102,7 +102,7 @@ export default function App() {
           <tr id={`tr${contact.id}`}>
             <td key={`key-${contact.id}`} id={contact.id}>{contact.nome}</td>
             <td id={contact.telefone}>{contact.telefone}</td>
-            <td id="images">
+            <td>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/18/18297.png?w=826"
                 alt="Trash"
